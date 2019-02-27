@@ -4,8 +4,9 @@ module.exports = {
         {id: 2, username: 'noevite', password: 'test123', profile_id: 2}
     ],
     profiles: [
-        {id: 1, role: 'ADMIN', name: 'Isaac', surname: 'Martin'},
-        {id: 2, role: 'ADMIN', name: 'Noelia', surname: 'Villa'}
+        {id: 1, user_id: 1, role: 'ADMIN', name: 'Isaac', surname: 'Martin'},
+        {id: 2, user_id: 1, role: 'USER', name: 'Isaac', surname: 'Martin'},
+        {id: 3, user_id: 2, role: 'ADMIN', name: 'Noelia', surname: 'Villa'}
     ],
     posts: [
         {id: 1, title: "Lorem Ipsum", views: 254, profile_id: 1},

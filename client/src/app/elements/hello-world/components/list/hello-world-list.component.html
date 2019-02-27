@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let item of items; let index = index"
+        (click)="onSelected(item, index)">
+        {{ item }}
+    </li>
+</ul>
