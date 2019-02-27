@@ -1,0 +1,14 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-graphql-server db.js --p 9002"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-graphql-server": "^2.1.3"
+  }
+}
