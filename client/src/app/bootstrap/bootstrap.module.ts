@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { BootstrapComponent } from './components';
-import { HelloWorldModule } from "../elements/hello-world";
+import { HelloWorldModule } from "../elements";
+import { HeaderModule } from "../shared/header";
 
 @NgModule({
     imports: [
         BrowserModule,
 
+        HeaderModule,
         HelloWorldModule,
     ],
     declarations: [
