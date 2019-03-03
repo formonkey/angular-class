@@ -1,0 +1,4 @@
+[
+    {"id": 1, "post_id": 1, "body": "Consectetur adipiscing elit", "date": "2017-07-03", "user_id": 2},
+    {"id": 2, "post_id": 1, "body": "Nam molestie pellentesque dui", "date": "2017-08-17", "user_id": 3}
+]

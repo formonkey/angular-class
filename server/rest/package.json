@@ -1,14 +1,14 @@
 {
-  "name": "rest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "server": "json-server --watch db.json --port 9001"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "json-server": "^0.14.2"
-  }
+    "name": "mocks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "server": "json-server --watch index.js --routes routes.json --port 9001"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "json-server": "^0.14.2"
+    }
 }

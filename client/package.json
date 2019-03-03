@@ -5,7 +5,8 @@
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build",
-        "test": "ng test",
+        "tdd": "ng test --code-coverage",
+        "test": "ng test --code-coverage --no-watch",
         "lint": "ng lint",
         "e2e": "ng e2e",
         "doc": "compodoc -p src/tsconfig.app.json"
