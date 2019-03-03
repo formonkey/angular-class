@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from './components';
 import { BrandModule } from '../../elements/brand';
+import { SearchModule } from '../../elements/search';
 import { NavBarModule } from '../../elements/nav-bar';
 
 @NgModule({
@@ -11,6 +12,7 @@ import { NavBarModule } from '../../elements/nav-bar';
 
         BrandModule,
         NavBarModule,
+        SearchModule,
     ],
     declarations: [
         HeaderComponent,
