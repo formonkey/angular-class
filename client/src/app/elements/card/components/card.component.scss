@@ -1,0 +1,25 @@
+.card {
+    box-shadow: none;
+
+    &.no-background {
+        background: transparent;
+    }
+
+    &.inline {
+        display: flex;
+
+        figure {
+            width: 10em;
+        }
+
+        margin: 2em 0 1.6em 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        .card-content {
+            padding-top: 0;
+        }
+    }
+}
