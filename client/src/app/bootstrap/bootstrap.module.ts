@@ -1,16 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { HomeModule } from "../pages/home";
 import { BootstrapComponent } from './components';
-import { HelloWorldModule } from "../elements";
-import { HeaderModule } from "../shared/header";
 
 @NgModule({
     imports: [
         BrowserModule,
 
-        HeaderModule,
-        HelloWorldModule,
+        HomeModule,
     ],
     declarations: [
         BootstrapComponent,
