@@ -1,9 +1,9 @@
 import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import {TextToBinaryPipe} from "../../shared/pipes";
-import {HelloWorldComponent, HelloWorldDescriptionComponent} from "./components";
-import {HelloWorldListComponent} from "./components/list";
-import {CommonModule} from "@angular/common";
+import { TextToBinaryPipe } from "../../shared/pipes";
+import { HelloWorldListComponent } from "./components/list";
+import { HelloWorldComponent, HelloWorldDescriptionComponent } from "./components";
 
 @NgModule({
     imports: [
