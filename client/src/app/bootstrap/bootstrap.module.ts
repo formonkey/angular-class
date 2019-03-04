@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { HomeModule } from '../pages/home';
+import { SiteModule } from '../pages';
 import { BootstrapComponent } from './components';
 
 @NgModule({
     imports: [
         BrowserModule,
 
-        HomeModule,
+        SiteModule,
     ],
     declarations: [
         BootstrapComponent,

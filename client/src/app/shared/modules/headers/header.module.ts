@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from './components';
-import { BrandModule } from '../../elements/brand';
-import { SearchModule } from '../../elements/search';
-import { NavBarModule } from '../../elements/nav-bar';
+import { BrandModule } from '../../../elements/brand';
+import { SearchModule } from '../../../elements/search';
+import { NavBarModule } from '../../../elements/nav-bar';
 
 @NgModule({
     imports: [
@@ -19,6 +19,8 @@ import { NavBarModule } from '../../elements/nav-bar';
     ],
     exports: [
         HeaderComponent,
+
+        NavBarModule,
     ],
 })
 

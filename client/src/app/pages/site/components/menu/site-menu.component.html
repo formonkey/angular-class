@@ -1,0 +1,11 @@
+<cls-nav-bar>
+    <div class="navbar-menu">
+        <div *ngFor="let nav of model"
+             class="navbar-{{ nav.class }}">
+            <a class="navbar-item"
+               *ngFor="let link of nav.children">
+                {{ link }}
+            </a>
+        </div>
+    </div>
+</cls-nav-bar>

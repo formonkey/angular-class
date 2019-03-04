@@ -1,3 +1,2 @@
 export * from './enums';
-export * from './pipes';
-export * from './headers';
+export * from './modules';

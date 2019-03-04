@@ -1,0 +1,21 @@
+<div class="columns">
+    <div class="column">
+        <cls-jumbotron title="More video">
+            <div class="columns">
+                <ng-container *ngFor="let _ of model;
+                                      let even = even">
+                    <ng-container *ngIf="even">
+                        <div class="column">
+                            <cls-card [inline]="true"
+                                      [hasBackground]="false">
+                            </cls-card>
+                            <cls-card [inline]="true"
+                                      [hasBackground]="false">
+                            </cls-card>
+                        </div>
+                    </ng-container>
+                </ng-container>
+            </div>
+        </cls-jumbotron>
+    </div>
+</div>
