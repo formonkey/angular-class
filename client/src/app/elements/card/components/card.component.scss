@@ -1,12 +1,10 @@
 .card {
-    box-shadow: none;
-
-    &.no-background {
-        background: transparent;
-    }
-
     &.inline {
         display: flex;
+
+        &.is-transparent {
+            background: transparent;
+        }
 
         figure {
             width: 10em;

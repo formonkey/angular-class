@@ -1,6 +1,5 @@
-<div class="card"
-     [class.inline]="inline"
-     [class.no-background]="!hasBackground">
+<div class="card is-shadowless"
+     [ngClass]="{'inline is-transparent': inline }">
     <div class="card-image">
         <figure class="image is-4by3">
             <img src="https://bulma.io/images/placeholders/1280x960.png"

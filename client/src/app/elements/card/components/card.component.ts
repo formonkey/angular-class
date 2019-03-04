@@ -8,5 +8,4 @@ import { Component, Input } from '@angular/core';
 
 export class CardComponent {
     @Input() public readonly inline: boolean;
-    @Input() public readonly hasBackground: boolean = true;
 }
