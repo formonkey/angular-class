@@ -6,9 +6,8 @@
                                       let even = even">
                     <ng-container *ngIf="even">
                         <div class="column">
-                            <cls-card [inline]="true">
-                            </cls-card>
-                            <cls-card [inline]="true">
+                            <cls-card *ngFor="let _ of [0, 1]"
+                                      [inline]="true">
                             </cls-card>
                         </div>
                     </ng-container>
