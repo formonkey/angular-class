@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import { Component, Input } from '@angular/core';
 
 @Component ({
     selector: 'cls-button',
@@ -6,4 +6,9 @@ import {Component} from "@angular/core";
     styleUrls: [ './button.component.scss' ],
 })
 
-export class ButtonComponent {}
+export class ButtonComponent {
+    @Input() public readonly clazz: string;
+    @Input() public readonly isLoading: boolean;
+    @Input() public readonly isDisabled: boolean;
+
+}
