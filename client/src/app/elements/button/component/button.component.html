@@ -1,1 +1,5 @@
-<button>test</button>
+<button class="button {{ clazz }}"
+        [class.is-loading]="isLoading"
+        [disabled]="isDisabled || isLoading">
+    <ng-content></ng-content>
+</button>

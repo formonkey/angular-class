@@ -1,1 +1,16 @@
-<cls-button></cls-button>
+<div class="buttons">
+    <cls-button clazz="is-dark">Dark</cls-button>
+    <cls-button clazz="is-light">Light</cls-button>
+    <cls-button clazz="is-primary is-large">Primary & Large</cls-button>
+    <cls-button clazz="is-secondary is-small">Secondary & Small</cls-button>
+    <cls-button clazz="is-link is-loading">Link & Loading</cls-button>
+    <cls-button clazz="is-info is-loading">Info & Loading</cls-button>
+    <cls-button clazz="is-danger"
+                [isDisabled]="true">
+        Danger & Disabled
+    </cls-button>
+    <cls-button clazz="is-warning"
+                [isLoading]="true">
+        Warning & Loading & Disabled
+    </cls-button>
+</div>
