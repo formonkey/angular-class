@@ -1,1 +1,13 @@
-<button class="button {{ clazz }}" [class.is-loading]="isLoading" [disabled]="isDisabled || isLoading">Button</button>
+<button class="button {{ clazz }}"
+        [class.is-loading]="isLoading"
+        [disabled]="isDisabled || isLoading">
+    <span class="icon" *ngIf="leftIcon">
+      <i class="{{ leftIcon }}"></i>
+    </span>
+
+    <span>Button</span>
+
+    <span class="icon" *ngIf="rightIcon">
+      <i class="{{ rightIcon }}"></i>
+    </span>
+</button>
