@@ -1,5 +1,11 @@
 <button class="button {{ clazz }}"
         [class.is-loading]="isLoading"
         [disabled]="isDisabled || isLoading">
+    <span *ngIf="hasIconLeft" class="icon">
+        <i class="fab fa-{{ icon }}"></i>
+    </span>
     <ng-content></ng-content>
+    <span *ngIf="hasIconRight" class="icon">
+        <i class="fab fa-{{ icon }}"></i>
+    </span>
 </button>

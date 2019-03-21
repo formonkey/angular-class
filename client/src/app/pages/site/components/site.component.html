@@ -11,6 +11,21 @@
     </cls-button>
     <cls-button clazz="is-warning"
                 [isLoading]="true">
-        Warning & Loading & Disabled
+    </cls-button>
+</div>
+<div class="buttons">
+    <cls-button clazz="is-success"
+                [hasIconLeft]="true"
+                icon="github">
+        <span>Success & Left Icon</span>
+    </cls-button>
+    <cls-button clazz="is-danger is-inverted"
+                icon="github"
+                [hasIconRight]="true">
+        <span>Danger & Right Icon</span>
+    </cls-button>
+    <cls-button clazz="is-warning"
+                icon="github"
+                [hasIconLeft]="true">
     </cls-button>
 </div>
