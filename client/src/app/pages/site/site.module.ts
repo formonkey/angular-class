@@ -9,7 +9,6 @@ import { SiteComponent, SiteMenuComponent } from './components';
     imports: [
         CommonModule,
 
-        HomeModule,
         HeaderModule,
     ],
     declarations: [
