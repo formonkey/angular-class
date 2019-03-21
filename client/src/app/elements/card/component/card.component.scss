@@ -1,0 +1,12 @@
+.card {
+    &.in-line {
+        display: flex;
+        background-color: transparent;
+        box-shadow: none;
+
+        .card-image {
+            width: 100%;
+        }
+
+    }
+}
