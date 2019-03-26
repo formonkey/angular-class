@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HomeModule } from '../pages/home';
+import { FormModule } from '../elements/form';
 import { ButtonModule } from '../elements/button';
 import { BootstrapComponent } from './components';
 
@@ -10,6 +11,7 @@ import { BootstrapComponent } from './components';
         BrowserModule,
 
         HomeModule,
+        FormModule,
         ButtonModule,
     ],
     declarations: [

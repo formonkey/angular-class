@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="column">
+
+        <form [formGroup]="form">
+            <div class="field">
+                <label class="label">Username</label>
+                <div class="control has-icons-right">
+                    <input class="input" type="text" placeholder="Text input" formControlName="username">
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <small *ngIf="form.get('username').errors && form.get('username').errors.required">
+                        The username is required.
+                    </small>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-right">
+                    <input class="input" type="email" placeholder="Email input" formControlName="email">
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <small *ngIf="form.get('email').errors && form.get('email').errors.required">
+                        The email is required.
+                    </small>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
