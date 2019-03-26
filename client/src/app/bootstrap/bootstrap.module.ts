@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormModule } from '../elements';
 import { BootstrapComponent } from './components';
-import { HelloWorldModule } from "../elements/hello-world";
 
 @NgModule({
     imports: [
         BrowserModule,
 
-        HelloWorldModule,
+        FormModule,
     ],
     declarations: [
         BootstrapComponent,
