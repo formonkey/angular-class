@@ -2,20 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { BootstrapComponent } from './components';
-import { HelloWorldModule } from '../elements/hello-world';
+import { HeaderComponent } from '../shared/header/components';
 
 @NgModule({
     imports: [
         BrowserModule,
-
-        HelloWorldModule,
     ],
     declarations: [
         BootstrapComponent,
+        HeaderComponent
     ],
     bootstrap: [
-        BootstrapComponent,
-    ],
+        BootstrapComponent
+    ]
 })
 
 export class BootstrapModule {}

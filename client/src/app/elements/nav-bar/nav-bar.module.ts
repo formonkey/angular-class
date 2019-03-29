@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TextToBinaryPipe } from '../../shared/pipes';
+import { NavBarComponent } from './components';
 
 @NgModule({
     imports: [
-        CommonModule,
+        CommonModule
     ],
     declarations: [
-        TextToBinaryPipe,
-      
+        NavBarComponent
     ],
     exports: [
-    ],
+        NavBarComponent
+    ]
 })
 
 export class NavBarModule {}
