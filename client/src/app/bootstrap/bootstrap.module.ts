@@ -7,8 +7,6 @@ import { HelloWorldModule } from "../elements/hello-world";
 @NgModule({
     imports: [
         BrowserModule,
-
-        HelloWorldModule,
     ],
     declarations: [
         BootstrapComponent,
